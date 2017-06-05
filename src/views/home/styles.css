@@ -1,0 +1,51 @@
+body {
+  margin: 0
+}
+.app{
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.film{
+  width: 50%;
+  height: 230px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+.filmCover {
+  width:  100%;
+  height: 100%;
+  position: relative;
+}
+.filmTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .3)
+}
+@media screen and (min-width: 767px) and (max-width: 1023px){
+  .film{
+    width: 33%;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .app{
+    max-width: 1020px;
+  }
+  .film{
+    width: 20%;
+    height: 300px;
+  }
+}

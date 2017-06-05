@@ -1,0 +1,86 @@
+.content {
+   margin: 0 auto;
+   max-width: 1024px;
+
+}
+.main {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10%;
+   max-height: 300px;
+}
+
+.leftSide {
+  height: 100%;
+  width: 30%;
+  text-align: center;
+}
+.imageFilm {
+  width: 100%;
+  max-width: 200px;
+}
+.imageFilm img {
+  padding: 1em 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.posterFilm {
+  max-width: 300px;
+  width: 100%;
+  height: 100%;
+}
+.infoFilm {
+  width: 70%;
+}
+.actions {
+  display: flex;
+  margin: 1em 0;
+  justify-content: center;
+}
+.btn {
+  padding: 10px;
+  box-shadow: 1px;
+  text-decoration: none;
+  text-align: center;
+  background: blueviolet;
+  letter-spacing: .5px;
+  color: white;
+}
+.seasons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: yellow;
+}
+.season {
+  width: 100%;
+  text-align: center;
+}
+
+.seasonTitle {
+  padding: .6em;
+  border: 1px solid black;
+}
+.seasonEpisodes {
+  position: absolute;
+  visibility: hidden;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+  .seasonEpisodes ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .episode {
+    border-bottom: 1px solid #b7b7b4;
+    padding: .6em;
+    box-sizing: border-box;
+  }
+.episode:hover {
+  background-color: #f1f1f1;
+}
+.season:hover .seasonEpisodes {
+  visibility: visible;
+}

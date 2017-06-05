@@ -1,0 +1,40 @@
+{
+  "name": "pelis",
+  "version": "1.0.0",
+  "description": "api-rest web para ver series o peiculas online",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "ces1508 christian eduadro segura <ces1508@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.1",
+    "rethinkdbdash": "^2.3.28",
+    "video.js": "^5.19.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "css-loader": "^0.28.2",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.0"
+  }
+}
